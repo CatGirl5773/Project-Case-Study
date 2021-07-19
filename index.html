@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <h1> Case Study: Wolfram Image Project vs Mobile Net </h1>
+        <h3 id="note"> <b> Note: </b> The images that I took don't work on Wolfram Image Project, so I used similar images online. </h3>
+        <ol>
+            <li> Test Item: <br>
+            <img src="tissue_box.jpg">
+            <h3> Result from Wolfram Image Project: <span id="wolfram_1"> Null </span> </h3>
+            <h3> Result from MobileNet: <span id="mobilenet_1"> Apron </span> </h3>
+            <h3> Final Result: </h3>
+            <span id="final_1"> Neither of them are accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="water_bottle.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_2"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_2"> Water Bottle </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_2"> MobileNet is more accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="glue.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_3"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_3"> Cocktail Shaker </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_3"> Neither of them are accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="watch.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_4"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_4"> Analog Clock </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_4"> MobileNet is more accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="rubiks_cube.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_5"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_5"> Bookcase </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_5"> Neither of them are accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="paper.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_6"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_6"> Refridgerator, Icebox </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_6"> Neither of them are accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="ruler.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_7"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_7"> Rule, Ruler </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_7"> MobileNet is more accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="binder.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_8"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_8"> Desk </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_8"> Neither of them are accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="wipes.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_9"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_9"> Punching Bag, Punch Bag, Punching Ball, Punchball </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_9"> Neither of them are accurate. </span>
+            </li>
+            <li> Test Item: <br>
+                <img src="tape.jpg">
+                <h3> Result from Wolfram Image Project: <span id="wolfram_10"> Null </span> </h3>
+                <h3> Result from MobileNet: <span id="mobilenet_10"> Electric Fan, Blower </span> </h3>
+                <h3> Final Result: </h3>
+                <span id="final_10"> Neither of them are accurate. </span>
+            </li>
+        </ol>
+        <h3 id="final_result"> I have tested 10 images in total. According to this data, MobileNet is more accurate, with 3 out of 10 images correct, while Wolfram has 0 out of 10 images correct. </h3>
+        <div class="copy_right">
+        <h4> Made by: Esther J. Choi </h4>
+        </div>
+    </center>
+        <script src="main.js"></script>
+    </body>
+</html>

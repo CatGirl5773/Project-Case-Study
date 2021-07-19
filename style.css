@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    background-color: honeydew;
+}
+
+img {
+    width: 50%;
+}
+
+li {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+ol {
+    width: 75%;
+}
+
+span {
+    font-size: 25px;
+}
+
+h4 {
+    width: 100%;
+    background-color: palegreen;
+    padding: 10px;
+    margin: 0px;
+}
+
+#note {
+    color: red;
+}
+
+.copy_right {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#final_result {
+    margin-bottom: 50px;
+}
